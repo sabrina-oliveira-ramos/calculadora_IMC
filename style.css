@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(189, 133, 241);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 620px; /*Ajusta a altura do container*/
+    margin: 0;
+}
+
+.container{
+    display: flex;/*Define que o container será flexível*/
+    flex-direction: column; /*Organiza os elementos do container em uma coluna*/
+    background-color: blueviolet; /*Determina a cor do container*/
+    width: 400px; /*Define a largura*/
+    height: 600px; /*Define a altura*/
+    align-items: center; /*Alinha os elementos no centro do container, alinhamento horizontal*/
+    justify-content: space-evenly; /*Alinha os elementos no centro do container, alinhamento vertical*/
+    border-radius: 20px; /*Arredonda as bordas do container*/
+    box-shadow: 0 0 10px black; /*Aplica sombra ao container*/
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none; 
+    outline: 0; /*Remove a linha de contorno*/
+    font: bold 1, Srem serif;
+    text-align: center;
+}
+
+.input label{
+    font: bold 1, Srem serif;
+}
+
+button{
+    font: bold 1, 2rem serif;
+    width: 300px;
+    height: 40px;
+    background-color: indigo;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: italic 1, Srem serif;
+    box-shadow: 0px 0px 10px black;
+    background-color: black;
+    color: rgb(253, 249, 3);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
